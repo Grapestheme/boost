@@ -1,0 +1,16 @@
+{
+  "name": "TFBoost",
+  "version": "0.0.1",
+  "authors": [
+    "Grapestheme <grapestheme@gmail.com>"
+  ],
+  "description": "Kick Start front-end With Bootsrap",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

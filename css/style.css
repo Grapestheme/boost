@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+/* ----------------------------------
+
+Name:style.css
+Version:0.1.0
+
+----------------------------------
+
+Table of contents
+        
+    01.  Google font
+    02.  Reset
+    03.  Coustom Setup
+    04.  Typography
+
+*/
+
+/* ===================================
+    Google font
+====================================== */
+
+/*@import url(Hear is google font url);*/
+
+/* ===================================
+    Reset
+====================================== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+* {
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ===================================
+    Coustom Setup
+====================================== */
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+html,body{ 
+    width:100%;
+    min-height: 100% !important;
+    height:100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-size: 14px;
+    color: #626262;
+    line-height: 23px;
+    letter-spacing: 0.02em
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+.shadow-1 {
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+}
+
+.shadow-2 {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
+}
+
+.shadow-3 {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
+}
+
+.shadow-4 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-5 {
+  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.22), 0 19px 76px rgba(0, 0, 0, 0.3);
+}
+
+/* ===================================
+    Typography
+====================================== */
+
+/* heading */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+h1 {
+	font-size: 34px;
+    font-weight: 700;
+    line-height: 45px
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: inherit;
+    line-height: 30px
+}
+
+h3 {
+    font-size: 14px;
+    letter-spacing: inherit;
+    font-weight: 700;
+}
+
+h4 {
+    letter-spacing: 0px;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 26px
+}
+
+h5 {
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 11px
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px
+}
+
+/* different text size */
+
+.text-small {
+    font-size: 11px !important;
+    line-height: 15px !important;
+}
+
+.text-med {
+    font-size: 14px !important;
+    line-height: 26px !important;
+}
+
+.text-large {
+    font-size: 15px !important;
+    text-transform: uppercase;
+    line-height: 24px !important;
+    letter-spacing: 2px !important;
+}
+
+.text-extra-large {
+    font-size: 16px !important;
+    line-height: 28px !important;
+    font-weight: 100;
+}
+
+.text-extra-large strong {
+    letter-spacing: 3px
+}
+
+.text-extra-large-normal {
+    font-weight: normal !important;
+}
+
+.title-small {
+    font-size: 20px !important;
+    line-height: 30px !important;
+}
+
+.title-med {
+    font-size: 24px !important;
+    line-height: 34px !important;
+}
+
+.title-large {
+    font-size: 28px !important;
+    line-height: 41px !important;
+}
+
+.title-extra-large {
+    font-size: 35px !important;
+    line-height: 43px !important;
+}
